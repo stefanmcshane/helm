@@ -25,9 +25,9 @@ import (
 	"k8s.io/cli-runtime/pkg/printers"
 	"sigs.k8s.io/yaml"
 
-	"helm.sh/helm/v3/pkg/chart"
-	"helm.sh/helm/v3/pkg/chart/loader"
-	"helm.sh/helm/v3/pkg/chartutil"
+	"github.com/stefanmcshane/helm/pkg/chart"
+	"github.com/stefanmcshane/helm/pkg/chart/loader"
+	"github.com/stefanmcshane/helm/pkg/chartutil"
 )
 
 // ShowOutputFormat is the format of the output of `helm show`

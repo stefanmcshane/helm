@@ -22,13 +22,13 @@ import (
 	"strings"
 	"testing"
 
-	"helm.sh/helm/v3/internal/test/ensure"
-	"helm.sh/helm/v3/pkg/chart"
-	"helm.sh/helm/v3/pkg/chartutil"
-	"helm.sh/helm/v3/pkg/helmpath"
-	"helm.sh/helm/v3/pkg/provenance"
-	"helm.sh/helm/v3/pkg/repo"
-	"helm.sh/helm/v3/pkg/repo/repotest"
+	"github.com/stefanmcshane/helm/internal/test/ensure"
+	"github.com/stefanmcshane/helm/pkg/chart"
+	"github.com/stefanmcshane/helm/pkg/chartutil"
+	"github.com/stefanmcshane/helm/pkg/helmpath"
+	"github.com/stefanmcshane/helm/pkg/provenance"
+	"github.com/stefanmcshane/helm/pkg/repo"
+	"github.com/stefanmcshane/helm/pkg/repo/repotest"
 )
 
 func TestDependencyUpdateCmd(t *testing.T) {

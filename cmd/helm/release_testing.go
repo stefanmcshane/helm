@@ -25,9 +25,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"helm.sh/helm/v3/cmd/helm/require"
-	"helm.sh/helm/v3/pkg/action"
-	"helm.sh/helm/v3/pkg/cli/output"
+	"github.com/stefanmcshane/helm/cmd/helm/require"
+	"github.com/stefanmcshane/helm/pkg/action"
+	"github.com/stefanmcshane/helm/pkg/cli/output"
 )
 
 const releaseTestHelp = `

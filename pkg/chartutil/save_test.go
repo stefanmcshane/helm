@@ -29,9 +29,9 @@ import (
 	"testing"
 	"time"
 
-	"helm.sh/helm/v3/internal/test/ensure"
-	"helm.sh/helm/v3/pkg/chart"
-	"helm.sh/helm/v3/pkg/chart/loader"
+	"github.com/stefanmcshane/helm/internal/test/ensure"
+	"github.com/stefanmcshane/helm/pkg/chart"
+	"github.com/stefanmcshane/helm/pkg/chart/loader"
 )
 
 func TestSave(t *testing.T) {
